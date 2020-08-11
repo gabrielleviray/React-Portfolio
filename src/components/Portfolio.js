@@ -13,6 +13,7 @@ import {
  } from "@material-ui/core"
 import Navbar from "./Navbar";
 import cmpe127 from "../images/cmpe127.jpg"
+import cmpe146 from "../images/cmpe146.png"
 
 const useStyles = makeStyles({
     mainContainer: {
@@ -74,7 +75,7 @@ const Portfolio = () => {
                                 component="img"
                                 alt="Project 2"
                                 height="140"
-                                image={cmpe127}
+                                image={cmpe146}
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
@@ -86,8 +87,8 @@ const Portfolio = () => {
                             </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                <Button size="small" color="primary">
-                                    Share
+                                <Button size="small" color="primary" href="project2">
+                                    About
                                 </Button>
                                 <Button szie="small" color="primary"> 
                                     Live Demo
@@ -115,8 +116,8 @@ const Portfolio = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" color="primary">
-                                    Share
+                                <Button size="small" color="primary" href="project3">
+                                    About
                                 </Button>
                                 <Button szie="small" color="primary"> 
                                     Live Demo

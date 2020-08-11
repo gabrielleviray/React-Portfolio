@@ -121,9 +121,9 @@ function project1(props) {
                     Line Follower Maze Robot
                   </Typography>
                   <Typography variant="headline" color="inherit" paragraph>
-                    Using TI Robotics Systems Learning Kit, a colleague and I designed a <i>Line Follower Maze Robot</i> 
-                     that solves a maze by accurately following a solid line and taking the necessary
-                    path to reach the treasure. It can also use the walls to detect when it strays far from the line. 
+                    Using TI Robotics Systems Learning Kit, a colleague and I designed a <i>Line Follower Maze Robot </i>  
+                     that meaneuvers through a maze by accurately following a solid line and taking the necessary
+                    path to reach the final destination. It can also use the walls to detect when it strays far from the line. 
                   </Typography>
                   {/* <Typography variant="title" color="inherit">
                     Continue reading.
@@ -132,7 +132,9 @@ function project1(props) {
               </Grid>
               <Grid item md={6}>
                   <div className={classes.mainFeaturedPostContent}>
-                    <img src={maze_robot} height="225" width="375" ></img>
+                    <center>
+                        <img src={maze_robot} height="225" width="375" ></img>
+                    </center>
                   </div>
               </Grid>
             </Grid>

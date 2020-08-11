@@ -7,6 +7,8 @@ import Resume from "./components/Resume"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 import project1 from "./components/project1"
+import project2 from "./components/project2"
+import project3 from "./components/project3"
 function App() {
   return (
     <>
@@ -16,6 +18,8 @@ function App() {
       <Route path="/portfolio" component={Portfolio}/>
       <Route path="/contact" component={Contact}/>
       <Route path="/project1" component={project1}/>
+      <Route path="/project2" component={project2}/>
+      <Route path="/project3" component={project3}/>
     </>
   );
 }
